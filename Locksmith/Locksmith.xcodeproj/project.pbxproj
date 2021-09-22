@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D41F495269DD1C500978BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41F494269DD1C500978BB2 /* AppDelegate.swift */; };
+		5D41F498269DD1C500978BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F496269DD1C500978BB2 /* Main.storyboard */; };
+		5D41F49A269DD1C500978BB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41F499269DD1C500978BB2 /* ViewController.swift */; };
+		5D41F49C269DD1C600978BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F49B269DD1C600978BB2 /* Assets.xcassets */; };
+		5D41F4A3269DD1C600978BB2 /* Locksmith Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5D41F4A2269DD1C600978BB2 /* Locksmith Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D41F4A8269DD1C600978BB2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D41F4A7269DD1C600978BB2 /* Cocoa.framework */; };
+		5D41F4AB269DD1C600978BB2 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D41F4AA269DD1C600978BB2 /* SafariWebExtensionHandler.swift */; };
+		5D41F4C4269DD1C700978BB2 /* gruntfile.js in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4B8269DD1C700978BB2 /* gruntfile.js */; };
+		5D41F4C5269DD1C700978BB2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4B9269DD1C700978BB2 /* icon.png */; };
+		5D41F4C6269DD1C700978BB2 /* app in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4BA269DD1C700978BB2 /* app */; };
+		5D41F4C7269DD1C700978BB2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4BB269DD1C700978BB2 /* LICENSE */; };
+		5D41F4C8269DD1C700978BB2 /* bower.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4BC269DD1C700978BB2 /* bower.json */; };
+		5D41F4C9269DD1C700978BB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4BD269DD1C700978BB2 /* README.md */; };
+		5D41F4CA269DD1C700978BB2 /* Locksmith.safariextension in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4BE269DD1C700978BB2 /* Locksmith.safariextension */; };
+		5D41F4CB269DD1C700978BB2 /* Locksmith in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4BF269DD1C700978BB2 /* Locksmith */; };
+		5D41F4CC269DD1C700978BB2 /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4C0269DD1C700978BB2 /* package-lock.json */; };
+		5D41F4CD269DD1C700978BB2 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4C1269DD1C700978BB2 /* package.json */; };
+		5D41F4CE269DD1C700978BB2 /* federation_proxy.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4C2269DD1C700978BB2 /* federation_proxy.yaml */; };
+		5D41F4CF269DD1C700978BB2 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D41F4C3269DD1C700978BB2 /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D41F4A4269DD1C600978BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D41F488269DD1C500978BB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D41F4A1269DD1C600978BB2;
+			remoteInfo = "Locksmith Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D41F4B3269DD1C600978BB2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D41F4A3269DD1C600978BB2 /* Locksmith Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D41F490269DD1C500978BB2 /* Locksmith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locksmith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D41F493269DD1C500978BB2 /* Locksmith.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Locksmith.entitlements; sourceTree = "<group>"; };
+		5D41F494269DD1C500978BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D41F497269DD1C500978BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D41F499269DD1C500978BB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5D41F49B269DD1C600978BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D41F49D269DD1C600978BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D41F4A2269DD1C600978BB2 /* Locksmith Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Locksmith Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D41F4A7269DD1C600978BB2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5D41F4AA269DD1C600978BB2 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		5D41F4AC269DD1C600978BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D41F4AD269DD1C600978BB2 /* Locksmith_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Locksmith_Extension.entitlements; sourceTree = "<group>"; };
+		5D41F4B8269DD1C700978BB2 /* gruntfile.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = gruntfile.js; path = ../../gruntfile.js; sourceTree = "<group>"; };
+		5D41F4B9269DD1C700978BB2 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../icon.png; sourceTree = "<group>"; };
+		5D41F4BA269DD1C700978BB2 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; name = app; path = ../../app; sourceTree = "<group>"; };
+		5D41F4BB269DD1C700978BB2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		5D41F4BC269DD1C700978BB2 /* bower.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = bower.json; path = ../../bower.json; sourceTree = "<group>"; };
+		5D41F4BD269DD1C700978BB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		5D41F4BE269DD1C700978BB2 /* Locksmith.safariextension */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Locksmith.safariextension; path = ../../Locksmith.safariextension; sourceTree = "<group>"; };
+		5D41F4BF269DD1C700978BB2 /* Locksmith */ = {isa = PBXFileReference; lastKnownFileType = text; path = Locksmith; sourceTree = SOURCE_ROOT; };
+		5D41F4C0269DD1C700978BB2 /* package-lock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = "package-lock.json"; path = "../../package-lock.json"; sourceTree = "<group>"; };
+		5D41F4C1269DD1C700978BB2 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = package.json; path = ../../package.json; sourceTree = "<group>"; };
+		5D41F4C2269DD1C700978BB2 /* federation_proxy.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = federation_proxy.yaml; path = ../../federation_proxy.yaml; sourceTree = "<group>"; };
+		5D41F4C3269DD1C700978BB2 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D41F48D269DD1C500978BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D41F49F269DD1C600978BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D41F4A8269DD1C600978BB2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D41F487269DD1C500978BB2 = {
+			isa = PBXGroup;
+			children = (
+				5D41F492269DD1C500978BB2 /* Locksmith */,
+				5D41F4A9269DD1C600978BB2 /* Locksmith Extension */,
+				5D41F4A6269DD1C600978BB2 /* Frameworks */,
+				5D41F491269DD1C500978BB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D41F491269DD1C500978BB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D41F490269DD1C500978BB2 /* Locksmith.app */,
+				5D41F4A2269DD1C600978BB2 /* Locksmith Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D41F492269DD1C500978BB2 /* Locksmith */ = {
+			isa = PBXGroup;
+			children = (
+				5D41F493269DD1C500978BB2 /* Locksmith.entitlements */,
+				5D41F494269DD1C500978BB2 /* AppDelegate.swift */,
+				5D41F496269DD1C500978BB2 /* Main.storyboard */,
+				5D41F499269DD1C500978BB2 /* ViewController.swift */,
+				5D41F49B269DD1C600978BB2 /* Assets.xcassets */,
+				5D41F49D269DD1C600978BB2 /* Info.plist */,
+			);
+			path = Locksmith;
+			sourceTree = "<group>";
+		};
+		5D41F4A6269DD1C600978BB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D41F4A7269DD1C600978BB2 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D41F4A9269DD1C600978BB2 /* Locksmith Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5D41F4B7269DD1C700978BB2 /* Resources */,
+				5D41F4AA269DD1C600978BB2 /* SafariWebExtensionHandler.swift */,
+				5D41F4AC269DD1C600978BB2 /* Info.plist */,
+				5D41F4AD269DD1C600978BB2 /* Locksmith_Extension.entitlements */,
+			);
+			path = "Locksmith Extension";
+			sourceTree = "<group>";
+		};
+		5D41F4B7269DD1C700978BB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D41F4B8269DD1C700978BB2 /* gruntfile.js */,
+				5D41F4B9269DD1C700978BB2 /* icon.png */,
+				5D41F4BA269DD1C700978BB2 /* app */,
+				5D41F4BB269DD1C700978BB2 /* LICENSE */,
+				5D41F4BC269DD1C700978BB2 /* bower.json */,
+				5D41F4BD269DD1C700978BB2 /* README.md */,
+				5D41F4BE269DD1C700978BB2 /* Locksmith.safariextension */,
+				5D41F4BF269DD1C700978BB2 /* Locksmith */,
+				5D41F4C0269DD1C700978BB2 /* package-lock.json */,
+				5D41F4C1269DD1C700978BB2 /* package.json */,
+				5D41F4C2269DD1C700978BB2 /* federation_proxy.yaml */,
+				5D41F4C3269DD1C700978BB2 /* manifest.json */,
+			);
+			name = Resources;
+			path = "Locksmith Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D41F48F269DD1C500978BB2 /* Locksmith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D41F4B4269DD1C600978BB2 /* Build configuration list for PBXNativeTarget "Locksmith" */;
+			buildPhases = (
+				5D41F48C269DD1C500978BB2 /* Sources */,
+				5D41F48D269DD1C500978BB2 /* Frameworks */,
+				5D41F48E269DD1C500978BB2 /* Resources */,
+				5D41F4B3269DD1C600978BB2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D41F4A5269DD1C600978BB2 /* PBXTargetDependency */,
+			);
+			name = Locksmith;
+			productName = Locksmith;
+			productReference = 5D41F490269DD1C500978BB2 /* Locksmith.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D41F4A1269DD1C600978BB2 /* Locksmith Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D41F4B0269DD1C600978BB2 /* Build configuration list for PBXNativeTarget "Locksmith Extension" */;
+			buildPhases = (
+				5D41F49E269DD1C600978BB2 /* Sources */,
+				5D41F49F269DD1C600978BB2 /* Frameworks */,
+				5D41F4A0269DD1C600978BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Locksmith Extension";
+			productName = "Locksmith Extension";
+			productReference = 5D41F4A2269DD1C600978BB2 /* Locksmith Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D41F488269DD1C500978BB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5D41F48F269DD1C500978BB2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					5D41F4A1269DD1C600978BB2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D41F48B269DD1C500978BB2 /* Build configuration list for PBXProject "Locksmith" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D41F487269DD1C500978BB2;
+			productRefGroup = 5D41F491269DD1C500978BB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D41F48F269DD1C500978BB2 /* Locksmith */,
+				5D41F4A1269DD1C600978BB2 /* Locksmith Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D41F48E269DD1C500978BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D41F49C269DD1C600978BB2 /* Assets.xcassets in Resources */,
+				5D41F498269DD1C500978BB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D41F4A0269DD1C600978BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D41F4C9269DD1C700978BB2 /* README.md in Resources */,
+				5D41F4C6269DD1C700978BB2 /* app in Resources */,
+				5D41F4CC269DD1C700978BB2 /* package-lock.json in Resources */,
+				5D41F4CA269DD1C700978BB2 /* Locksmith.safariextension in Resources */,
+				5D41F4CF269DD1C700978BB2 /* manifest.json in Resources */,
+				5D41F4CD269DD1C700978BB2 /* package.json in Resources */,
+				5D41F4C5269DD1C700978BB2 /* icon.png in Resources */,
+				5D41F4C7269DD1C700978BB2 /* LICENSE in Resources */,
+				5D41F4C4269DD1C700978BB2 /* gruntfile.js in Resources */,
+				5D41F4CE269DD1C700978BB2 /* federation_proxy.yaml in Resources */,
+				5D41F4C8269DD1C700978BB2 /* bower.json in Resources */,
+				5D41F4CB269DD1C700978BB2 /* Locksmith in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D41F48C269DD1C500978BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D41F49A269DD1C500978BB2 /* ViewController.swift in Sources */,
+				5D41F495269DD1C500978BB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D41F49E269DD1C600978BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D41F4AB269DD1C600978BB2 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D41F4A5269DD1C600978BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D41F4A1269DD1C600978BB2 /* Locksmith Extension */;
+			targetProxy = 5D41F4A4269DD1C600978BB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D41F496269DD1C500978BB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D41F497269DD1C500978BB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D41F4AE269DD1C600978BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D41F4AF269DD1C600978BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5D41F4B1269DD1C600978BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Locksmith Extension/Locksmith_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MM8837P7J;
+				INFOPLIST_FILE = "Locksmith Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanwouda.Locksmith.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D41F4B2269DD1C600978BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Locksmith Extension/Locksmith_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6MM8837P7J;
+				INFOPLIST_FILE = "Locksmith Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanwouda.Locksmith.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5D41F4B5269DD1C600978BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Locksmith/Locksmith.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6MM8837P7J;
+				INFOPLIST_FILE = Locksmith/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanwouda.Locksmith;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5D41F4B6269DD1C600978BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Locksmith/Locksmith.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6MM8837P7J;
+				INFOPLIST_FILE = Locksmith/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathanwouda.Locksmith;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D41F48B269DD1C500978BB2 /* Build configuration list for PBXProject "Locksmith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D41F4AE269DD1C600978BB2 /* Debug */,
+				5D41F4AF269DD1C600978BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D41F4B0269DD1C600978BB2 /* Build configuration list for PBXNativeTarget "Locksmith Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D41F4B1269DD1C600978BB2 /* Debug */,
+				5D41F4B2269DD1C600978BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D41F4B4269DD1C600978BB2 /* Build configuration list for PBXNativeTarget "Locksmith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D41F4B5269DD1C600978BB2 /* Debug */,
+				5D41F4B6269DD1C600978BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D41F488269DD1C500978BB2 /* Project object */;
+}

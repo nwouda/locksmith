@@ -39,7 +39,7 @@
 			    ng-show="$is_extension && !$settings.use_switch_role"
 				class="item item-toggle"
 			>
-				Use Incognito Sessions
+				Use Private Sessions
 	  			<label class="toggle toggle-balanced">
 					<input
 					    type="checkbox"
@@ -49,6 +49,19 @@
 						<div class="handle"></div>
 					</div>
 				</label>
+			</div>
+
+			<div class="item item-toggle">
+				Show Gravatar Icons
+				<label class="toggle toggle-balanced">
+					<input
+							type="checkbox"
+						ng-model="$settings.use_gravatar"
+					/>
+					<div class="track">
+						<div class="handle"></div>
+					</div>
+					</label>
 			</div>
 		</div>
 

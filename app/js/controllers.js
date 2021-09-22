@@ -20,6 +20,9 @@ locksmithControllers.controller(
                 'incognito_sessions': {
                     type: 'boolean'
                 },
+                'use_gravatar': {
+                    type: 'boolean'
+                },
                 'api': {},
                 'api_username': {},
                 'api_password': {},

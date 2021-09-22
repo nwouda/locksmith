@@ -5,7 +5,7 @@
   "description": "AuthManager",
   "license": "Apache",
   "devDependencies": {
-    "bower": "^1.8.8",
+    "bower": "^1.8.12",
     "http-server": "^0.11.1",
     "shelljs": "^0.8.3",
     "tmp": "0.1.0"

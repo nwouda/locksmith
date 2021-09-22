@@ -1,6 +1,6 @@
 html {
-  min-width:  320px;
-	min-height: 568px;
+  min-width:  420px;
+	min-height: 668px;
   background-color: #eeeeee;
 }
 
@@ -54,4 +54,8 @@ html {
 
 .orange {
   color: orange;
+}
+
+form :first-child {
+  box-shadow: none;
 }
